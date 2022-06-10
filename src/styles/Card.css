@@ -1,0 +1,21 @@
+.kasa-lodging {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.kasa-card {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6060 0%, rgba(0, 0, 0, 100%) 335%);
+  width: 340px;
+  height: 340px;
+  margin-bottom: 50px;
+}
+
+.kasa-card__title {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  top: 275px;
+  margin: 0 20px 20px 20px;
+}
