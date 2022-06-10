@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Error from './components/Error';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Apropos from './pages/APropos';
@@ -18,6 +19,7 @@ root.render(
           <Route path="Home" index element={<Home />} />
           <Route path="Apropos" element={<Apropos />} />
         </Route>
+        <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />
     </Router>
