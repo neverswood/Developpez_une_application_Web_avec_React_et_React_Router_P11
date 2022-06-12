@@ -19,3 +19,10 @@
   width: 513px;
   height: 46px;
 }
+
+@media screen and (max-width: 635px) {
+  .kasa-2020 {
+    width: 205px;
+    height: 16px;
+  }
+}

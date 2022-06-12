@@ -31,3 +31,18 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 820px) {
+  .kasa-lodging {
+    margin: 0;
+  }
+
+  .kasa-card__cover {
+    margin: 0;
+  }
+
+  .kasa-card {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
