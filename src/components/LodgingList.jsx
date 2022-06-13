@@ -1,14 +1,14 @@
 import React from 'react';
 //import data from '../data/data.json';
-import '../styles/Gallery.css';
+import '../styles/LodgingList.css';
 import Card from './Card';
 
-function Gallery() {
+function LodgingList() {
   return (
-    <div className="kasa-gallery">
+    <div className="kasa-lodgingList">
       <Card />
     </div>
   );
 }
 
-export default Gallery;
+export default LodgingList;

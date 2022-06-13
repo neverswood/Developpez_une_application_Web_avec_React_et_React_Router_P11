@@ -1,4 +1,4 @@
-.kasa-gallery {
+.kasa-lodgingList {
   background-color: #f6f6f6;
   margin-top: 43px;
   border-radius: 25px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 635px) {
-  .kasa-gallery {
+  .kasa-lodgingList {
     background-color: white;
     padding: 0;
     margin: 0;
