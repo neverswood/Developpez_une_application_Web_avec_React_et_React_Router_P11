@@ -16,6 +16,10 @@
   margin-bottom: 50px;
 }
 
+.kasa-card a {
+  text-decoration: none;
+}
+
 .kasa-card__title {
   color: white;
   font-size: 18px;

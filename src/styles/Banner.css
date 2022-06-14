@@ -37,10 +37,12 @@
   .kasa-banner__img {
     border-radius: 10px;
     height: 111px;
+    object-fit: cover;
   }
 
   .kasa-banner__slogan {
     font-weight: 500;
     width: 217px;
+    left: 45px;
   }
 }
