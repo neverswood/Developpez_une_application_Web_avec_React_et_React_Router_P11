@@ -4,10 +4,10 @@ import LodgingList from '../components/LodgingList';
 
 function Home() {
   return (
-    <div className="home">
+    <main className="home">
       <Banner />
       <LodgingList />
-    </div>
+    </main>
   );
 }
 

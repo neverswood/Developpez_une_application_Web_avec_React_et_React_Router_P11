@@ -5,9 +5,9 @@ import Card from './Card';
 
 function LodgingList() {
   return (
-    <div className="kasa-lodgingList">
+    <section className="kasa-lodgingList">
       <Card />
-    </div>
+    </section>
   );
 }
 

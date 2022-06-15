@@ -11,7 +11,7 @@ function Header() {
     textDecoration: 'underline',
   };
   return (
-    <div className="kasa-header">
+    <header>
       <img src={logo} alt="Kasa" className="kasa-logo" />
       <nav className="kasa-nav">
         <NavLink
@@ -29,7 +29,7 @@ function Header() {
           A Propos
         </NavLink>
       </nav>
-    </div>
+    </header>
   );
 }
 
