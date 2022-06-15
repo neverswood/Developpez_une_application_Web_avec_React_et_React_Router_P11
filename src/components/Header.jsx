@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import '../styles/Header.css';
 
-function Header() {
+export function Header() {
   let activeStyle = {
     textDecoration: 'underline',
   };
@@ -32,5 +32,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

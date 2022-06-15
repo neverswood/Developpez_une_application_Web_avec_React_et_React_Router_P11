@@ -1,10 +1,9 @@
 import React from 'react';
-function Error() {
+
+export function Error() {
   return (
     <div>
       <h1>404</h1>
     </div>
   );
 }
-
-export default Error;

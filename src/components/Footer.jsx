@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 import logoWhite from '../assets/logoWhite.png';
 import kasa2020 from '../assets/kasa2020.png';
 
-function Footer() {
+export function Footer() {
   return (
     <footer>
       <img src={logoWhite} alt="Kasa" className="kasa-logoWhite" />
@@ -11,5 +11,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

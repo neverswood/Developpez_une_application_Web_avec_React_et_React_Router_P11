@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../components/Banner';
 import LodgingList from '../components/LodgingList';
 
-function Home() {
+export function Home() {
   return (
     <main className="home">
       <Banner />
@@ -10,5 +10,3 @@ function Home() {
     </main>
   );
 }
-
-export default Home;

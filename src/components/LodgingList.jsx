@@ -3,12 +3,10 @@ import React from 'react';
 import '../styles/LodgingList.css';
 import Card from './Card';
 
-function LodgingList() {
+export function LodgingList() {
   return (
     <section className="kasa-lodgingList">
       <Card />
     </section>
   );
 }
-
-export default LodgingList;
