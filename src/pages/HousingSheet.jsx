@@ -1,11 +1,18 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+import Gallery from '../components/Gallery';
+import LodgingPresentation from '../components/LodgingPresentation';
+import data from '../data/data.json';
 
-function HousingSheet() {
+export function HousingSheet() {
+  const params = useParams();
+  const paramsId = params.id;
+  const lodging = data.find((lodgingId) => lodgingId.id === paramsId);
+  console.log(lodging);
   return (
     <div>
-      <h1>popopo</h1>
+      <Gallery pictures={lodging.pictures} />
+      <LodgingPresentation lodging={lodging} />
     </div>
   );
 }
-
-export default HousingSheet;
