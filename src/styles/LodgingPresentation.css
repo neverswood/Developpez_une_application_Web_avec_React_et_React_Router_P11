@@ -1,0 +1,74 @@
+.lodgingPresentation {
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.lodgingPresentation h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.lodgingPresentation p {
+  font-size: 14px;
+  margin: 5px 0 10px 0;
+}
+
+.lodgingPresentation ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.lodgingPresentation li {
+  width: 84px;
+  height: 18px;
+  background: #ff6060;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.starsAndHost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars {
+  margin: 20px 0;
+}
+
+.stars img {
+  width: 15px;
+  height: 15px;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+}
+
+.host p {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10.5px;
+}
+
+.lastName {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.host img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
