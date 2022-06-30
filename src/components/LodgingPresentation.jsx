@@ -1,7 +1,7 @@
 import React from 'react';
-import star from '../assets/star.png';
-import starColor from '../assets/starColor.png';
+import star from '../assets/starGrey.jpg';
 import '../styles/LodgingPresentation.css';
+import starColor from '../assets/starColor.jpg';
 
 export function LodgingPresentation(props) {
   const rating = props.lodging.rating;
@@ -12,14 +12,21 @@ export function LodgingPresentation(props) {
   const nameHost = props.lodging.host.name.split(' ');
 
   return (
-    <div className="lodgingPresentation">
-      <h1>{props.lodging.title}</h1>
-      <p>{props.lodging.location}</p>
-      <ul>
-        {props.lodging.tags.map((tag) => {
-          return <li>{tag}</li>;
-        })}
-      </ul>
+    <div className="presentation">
+      <div className="lodgingPresentation">
+        <h1>{props.lodging.title}</h1>
+        <p className="location">{props.lodging.location}</p>
+        <ul>
+          {props.lodging.tags.map((tag) => {
+            return (
+              <li key={tag}>
+                <p className="list">{tag}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
       <div className="starsAndHost">
         <div className="stars">
           {array.map((index) => {
@@ -27,7 +34,7 @@ export function LodgingPresentation(props) {
           })}
         </div>
         <div className="host">
-          <p>
+          <p className="nameHost">
             <span>{nameHost[0]}</span>
             <span className="lastName">{nameHost[1]}</span>
           </p>
@@ -37,14 +44,3 @@ export function LodgingPresentation(props) {
     </div>
   );
 }
-
-/*    return (
-      <div>
-        <h1>{lodging.title}</h1>
-      </div>
-    );*/
-
-/*return lod.forEach((pop) => {
-      console.log('pop.id', pop);
-    });*/
-//
