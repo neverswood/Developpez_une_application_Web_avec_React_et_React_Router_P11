@@ -2,47 +2,49 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 111px;
+  margin: 0 0 22px 0;
+  border-radius: 10px;
+}
+
+.kasa-banner__slogan {
+  font-size: 24px;
 }
 
 .kasa-banner__img {
   width: 100%;
-  border-radius: 25px;
+}
+
+.kasa-banner__img {
+  width: 100%;
+  border-radius: 10px;
+  height: 111px;
+  object-fit: cover;
   filter: brightness(0.7);
 }
 
 .kasa-banner__slogan {
+  font-weight: 500;
+
   color: white;
   position: absolute;
   display: flex;
-  font-size: 48px;
+  font-size: 24px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1023px) {
   .kasa-banner__slogan {
-    font-size: 24px;
-  }
-
-  .kasa-banner__img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 635px) {
-  .kasa-banner {
-    height: 111px;
-    margin: 0 0 22px 0;
-    border-radius: 10px;
-  }
-
-  .kasa-banner__img {
-    border-radius: 10px;
-    height: 111px;
-    object-fit: cover;
-  }
-
-  .kasa-banner__slogan {
-    font-weight: 500;
     width: 217px;
     left: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .kasa-banner__img {
+    border-radius: 25px;
+  }
+
+  .kasa-banner__slogan {
+    font-size: 48px;
   }
 }
