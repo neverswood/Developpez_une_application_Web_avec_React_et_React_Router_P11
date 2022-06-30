@@ -21,7 +21,7 @@ export function Gallery(props) {
     return;
   };
 
-  return (
+  return props.pictures.length > 1 ? (
     <div className="gallery">
       <button
         className="btn-gallery btn-left"
@@ -44,6 +44,14 @@ export function Gallery(props) {
       >
         <i className="arrow arrow-right"></i>
       </button>
+    </div>
+  ) : (
+    <div className="gallery">
+      <img
+        src={props.pictures[currentIndex]}
+        alt="lodgingPicture"
+        className="carousel"
+      />
     </div>
   );
 }
