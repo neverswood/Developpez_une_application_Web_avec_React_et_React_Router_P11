@@ -1,4 +1,5 @@
-.footer {
+footer {
+  color: white;
   background-color: black;
   margin-top: 50px;
   width: 100%;
@@ -12,17 +13,23 @@
 .kasa-logoWhite {
   width: 122px;
   height: 39.44px;
-  margin-bottom: 28.56px;
+  margin: 70px 0 28px 0;
 }
 
 .kasa-2020 {
   width: 513px;
   height: 46px;
+  margin-left: 140px;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 635px) {
   .kasa-2020 {
-    width: 205px;
-    height: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }
