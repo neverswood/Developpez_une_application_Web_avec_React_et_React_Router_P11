@@ -10,7 +10,7 @@ import { HousingSheet } from './pages/HousingSheet';
 import './styles/Index.css';
 
 const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
+const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Router>
