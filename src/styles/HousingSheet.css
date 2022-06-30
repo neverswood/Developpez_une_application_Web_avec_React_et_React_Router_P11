@@ -1,0 +1,9 @@
+.housingSheet {
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .housingSheet {
+    margin: 0 100px;
+  }
+}
