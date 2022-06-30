@@ -13,10 +13,6 @@
 
 .kasa-banner__img {
   width: 100%;
-}
-
-.kasa-banner__img {
-  width: 100%;
   border-radius: 10px;
   height: 111px;
   object-fit: cover;
@@ -40,8 +36,13 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .kasa-banner {
+    height: 223px;
+    margin: 70px 0 43px;
+  }
   .kasa-banner__img {
     border-radius: 25px;
+    height: 223px;
   }
 
   .kasa-banner__slogan {
