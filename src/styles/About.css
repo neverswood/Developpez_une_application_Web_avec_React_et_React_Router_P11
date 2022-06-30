@@ -1,0 +1,32 @@
+.about {
+  margin: 0 20px;
+}
+
+.imgBanner {
+  background-image: url('../assets/bannerAbout.png');
+  background-repeat: no-repeat;
+
+  height: 223px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 376px) {
+  .imgBanner {
+    background-image: url('../assets/bannerAboutLarge.png');
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    margin: 0 100px;
+  }
+
+  .imgBanner {
+    border-radius: 25px;
+  }
+
+  section {
+    margin: 0 108px;
+  }
+}
