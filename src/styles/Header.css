@@ -1,4 +1,4 @@
-.kasa-header {
+header {
   display: flex;
   justify-content: space-between;
   color: #ff6060;
@@ -25,8 +25,8 @@
   margin-left: 57px;
 }
 
-@media screen and (max-width: 1040px) {
-  .kasa-header {
+@media screen and (max-width: 1024px) {
+  header {
     margin: 0 20px 0 20px;
   }
 }
