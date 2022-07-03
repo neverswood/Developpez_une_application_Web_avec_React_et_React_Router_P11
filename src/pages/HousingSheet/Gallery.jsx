@@ -29,11 +29,7 @@ export function Gallery(props) {
       >
         <i className="arrow arrow-left"></i>
       </button>
-      <img
-        src={props.pictures[currentIndex]}
-        alt={props.title}
-        className="carousel"
-      />
+      <img src={props.pictures[currentIndex]} alt={props.title} />
       <button
         className="btn-gallery btn-right"
         onClick={() => changePictureToRight()}
@@ -43,11 +39,7 @@ export function Gallery(props) {
     </div>
   ) : (
     <div className="gallery">
-      <img
-        src={props.pictures[currentIndex]}
-        alt={props.title}
-        className="carousel"
-      />
+      <img src={props.pictures[currentIndex]} alt={props.title} />
     </div>
   );
 }
