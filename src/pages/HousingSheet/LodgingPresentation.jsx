@@ -20,7 +20,7 @@ export function LodgingPresentation(props) {
           {props.lodging.tags.map((tag) => {
             return (
               <li key={tag}>
-                <p className="list">{tag}</p>
+                <span className="list">{tag}</span>
               </li>
             );
           })}
