@@ -1,6 +1,6 @@
 import React from 'react';
-import { Banner } from '../components/Banner';
-import { LodgingList } from '../components/LodgingList';
+import { Banner } from './Banner.jsx';
+import { LodgingList } from './LodgingList.jsx';
 
 export function Home() {
   return (

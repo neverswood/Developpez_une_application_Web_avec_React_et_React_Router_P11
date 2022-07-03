@@ -3,7 +3,7 @@
 }
 
 .imgBanner {
-  background-image: url('../assets/bannerAbout.png');
+  background-image: url('../../assets/bannerAbout.png');
   background-repeat: no-repeat;
 
   height: 223px;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 376px) {
   .imgBanner {
-    background-image: url('../assets/bannerAboutLarge.png');
+    background-image: url('../../assets/bannerAboutLarge.png');
   }
 }
 

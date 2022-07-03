@@ -1,7 +1,7 @@
 import React from 'react';
-import star from '../assets/starGrey.jpg';
-import '../styles/LodgingPresentation.css';
-import starColor from '../assets/starColor.jpg';
+import star from '../../assets/starGrey.jpg';
+import './LodgingPresentation.css';
+import starColor from '../../assets/starColor.jpg';
 
 export function LodgingPresentation(props) {
   const rating = props.lodging.rating;

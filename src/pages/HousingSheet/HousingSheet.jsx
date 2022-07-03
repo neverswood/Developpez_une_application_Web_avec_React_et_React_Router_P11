@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Gallery } from '../components/Gallery';
-import { LodgingPresentation } from '../components/LodgingPresentation';
-import { Accordion } from '../components/Accordion';
-import '../styles/HousingSheet.css';
-import data from '../data/data.json';
+import { Gallery } from './Gallery.jsx';
+import { LodgingPresentation } from './LodgingPresentation';
+import { Accordion } from '../../components/Accordion';
+import './HousingSheet.css';
+import data from '../../data/data.json';
 
 export function HousingSheet() {
   const params = useParams();

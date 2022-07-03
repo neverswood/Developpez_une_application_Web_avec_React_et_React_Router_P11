@@ -1,7 +1,7 @@
 import React from 'react';
-import { Accordion } from '../components/Accordion';
-import '../styles/About.css';
-import '../styles/Accordion.css';
+import { Accordion } from '../../components/Accordion';
+import './About.css';
+import '../../styles/Accordion.css';
 
 export function About() {
   return (

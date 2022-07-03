@@ -1,7 +1,6 @@
 import React from 'react';
-//import data from '../data/data.json';
-import '../styles/LodgingList.css';
-import { Card } from './Card';
+import './LodgingList.css';
+import { Card } from './Card.jsx';
 
 export function LodgingList() {
   return (

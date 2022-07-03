@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Gallery.css';
+import './Gallery.css';
 
 export function Gallery(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,12 +23,7 @@ export function Gallery(props) {
 
   return props.pictures.length > 1 ? (
     <div className="gallery">
-      <button
-        className="btn-gallery btn-left"
-        onClick={() => {
-          changeLeft();
-        }}
-      >
+      <button className="btn-gallery btn-left" onClick={() => changeLeft()}>
         <i className="arrow arrow-left"></i>
       </button>
       <img
@@ -36,12 +31,7 @@ export function Gallery(props) {
         alt="lodgingPicture"
         className="carousel"
       />
-      <button
-        className="btn-gallery btn-right"
-        onClick={() => {
-          changeRight();
-        }}
-      >
+      <button className="btn-gallery btn-right" onClick={() => changeRight()}>
         <i className="arrow arrow-right"></i>
       </button>
     </div>
