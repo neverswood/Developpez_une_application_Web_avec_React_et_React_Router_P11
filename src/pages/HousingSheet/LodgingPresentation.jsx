@@ -7,8 +7,8 @@ export function LodgingPresentation(props) {
   const rating = props.lodging.rating;
   const ratingNumber = parseInt(rating);
   const array = [1, 2, 3, 4, 5];
-  const starGrey = <img src={star} alt="starGrey" />;
-  const starRed = <img src={starColor} alt="starRed" />;
+  const starGrey = <img src={star} alt="Etoile grise" />;
+  const starRed = <img src={starColor} alt="Etoile rouge" />;
   const nameHost = props.lodging.host.name.split(' ');
 
   return (
@@ -38,7 +38,7 @@ export function LodgingPresentation(props) {
             <span>{nameHost[0]}</span>
             <span className="lastName">{nameHost[1]}</span>
           </p>
-          <img src={props.lodging.host.picture} alt="host" />
+          <img src={props.lodging.host.picture} alt="Hôte" />
         </div>
       </div>
     </div>

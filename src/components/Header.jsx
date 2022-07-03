@@ -12,7 +12,7 @@ export function Header() {
   };
   return (
     <header>
-      <img src={logo} alt="Kasa" className="kasa-logo" />
+      <img src={logo} alt="logo" className="kasa-logo" />
       <nav className="kasa-nav">
         <NavLink
           to="/home"

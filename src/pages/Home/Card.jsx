@@ -10,7 +10,7 @@ export function Card() {
         <Link to={`/housing-sheet/${lodging.id}`}>
           <img
             src={lodging.cover}
-            alt="lodging-pictureCover"
+            alt={lodging.title}
             className="kasa-card__cover"
           />
           <h2 className="kasa-card__title">{lodging.title}</h2>

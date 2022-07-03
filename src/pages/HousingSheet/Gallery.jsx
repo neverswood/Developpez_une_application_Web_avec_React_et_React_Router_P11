@@ -31,7 +31,7 @@ export function Gallery(props) {
       </button>
       <img
         src={props.pictures[currentIndex]}
-        alt="lodgingPicture"
+        alt={props.title}
         className="carousel"
       />
       <button
@@ -45,7 +45,7 @@ export function Gallery(props) {
     <div className="gallery">
       <img
         src={props.pictures[currentIndex]}
-        alt="lodgingPicture"
+        alt={props.title}
         className="carousel"
       />
     </div>
