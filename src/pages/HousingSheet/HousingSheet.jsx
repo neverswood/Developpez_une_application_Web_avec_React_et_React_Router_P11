@@ -11,7 +11,7 @@ export function HousingSheet() {
   const paramsId = params.id;
   const lodging = data.find((lodgingId) => lodgingId.id === paramsId);
   return (
-    <div className="housingSheet">
+    <main className="housingSheet">
       <Gallery pictures={lodging.pictures} />
       <LodgingPresentation lodging={lodging} />
       <Accordion
@@ -32,6 +32,6 @@ export function HousingSheet() {
           </ul>
         }
       />
-    </div>
+    </main>
   );
 }

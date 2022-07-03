@@ -5,7 +5,7 @@ import '../../styles/Accordion.css';
 
 export function About() {
   return (
-    <div className="about">
+    <main className="about">
       <div className="imgBanner"></div>
       <section>
         <Accordion
@@ -52,6 +52,6 @@ export function About() {
           }
         />
       </section>
-    </div>
+    </main>
   );
 }
