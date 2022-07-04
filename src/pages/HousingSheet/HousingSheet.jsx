@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Gallery } from '../../components/Gallery.jsx';
 import { LodgingPresentation } from './LodgingPresentation';
-import { Accordion } from '../../components/Accordion';
+import { Collapse } from '../../components/Collapse';
 import './HousingSheet.css';
 import data from '../../data/data.json';
 
@@ -14,11 +14,11 @@ export function HousingSheet() {
     <main className="housingSheet">
       <Gallery pictures={lodging.pictures} />
       <LodgingPresentation lodging={lodging} />
-      <Accordion
+      <Collapse
         title="Description"
         content={<p>{`${lodging.description}`}</p>}
       />
-      <Accordion
+      <Collapse
         title="Équipements"
         content={
           <ul>

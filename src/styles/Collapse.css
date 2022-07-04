@@ -1,4 +1,4 @@
-.accordion {
+.collapse {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -21,13 +21,13 @@
   justify-content: space-between;
 }
 
-.accordion ul {
+.collapse ul {
   list-style: none;
   width: 100%;
   padding: 0;
 }
 
-.accordion li,
+.collapse li,
 .descriptionP,
 p {
   padding: 0 15px;
@@ -41,7 +41,7 @@ p {
     padding-left: 18px;
   }
 
-  .accordion ul,
+  .collapse ul,
   p {
     font-size: 24px;
   }

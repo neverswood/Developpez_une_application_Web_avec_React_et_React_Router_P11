@@ -1,14 +1,14 @@
 import React from 'react';
-import { Accordion } from '../../components/Accordion';
+import { Collapse } from '../../components/Collapse';
 import './About.css';
-import '../../styles/Accordion.css';
+import '../../styles/Collapse.css';
 
 export function About() {
   return (
     <main className="about">
       <div className="imgBanner"></div>
       <section>
-        <Accordion
+        <Collapse
           title="Fiabilité"
           content={
             <p>
@@ -18,7 +18,7 @@ export function About() {
             </p>
           }
         />
-        <Accordion
+        <Collapse
           title="Respect"
           content={
             <p>
@@ -28,7 +28,7 @@ export function About() {
             </p>
           }
         />
-        <Accordion
+        <Collapse
           title="Service"
           content={
             <p>
@@ -38,7 +38,7 @@ export function About() {
             </p>
           }
         />
-        <Accordion
+        <Collapse
           title="Sécurité"
           content={
             <p>
