@@ -4,8 +4,6 @@ import { Star } from '../../components/Star.jsx';
 
 export function LodgingPresentation(props) {
   const rating = props.lodging.rating;
-  console.log('pm', props, rating);
-
   const nameHost = props.lodging.host.name.split(' ');
 
   return (
