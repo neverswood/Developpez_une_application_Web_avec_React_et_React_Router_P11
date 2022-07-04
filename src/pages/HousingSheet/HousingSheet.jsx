@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Gallery } from './Gallery.jsx';
+import { Gallery } from '../../components/Gallery.jsx';
 import { LodgingPresentation } from './LodgingPresentation';
 import { Accordion } from '../../components/Accordion';
 import './HousingSheet.css';
@@ -16,18 +16,14 @@ export function HousingSheet() {
       <LodgingPresentation lodging={lodging} />
       <Accordion
         title="Description"
-        content={
-          <div className="description">
-            <p className="descriptionP">{`${lodging.description}`}</p>
-          </div>
-        }
+        content={<p>{`${lodging.description}`}</p>}
       />
       <Accordion
         title="Équipements"
         content={
           <ul>
             {lodging.equipments.map((equipment) => {
-              return <li>{equipment}</li>;
+              return <li key={equipment}>{equipment}</li>;
             })}
           </ul>
         }
