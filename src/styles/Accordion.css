@@ -5,6 +5,8 @@
   color: #ff6060;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-size: 12px;
+  background: #f7f7f7;
 }
 
 .btn {
@@ -19,13 +21,10 @@
   justify-content: space-between;
 }
 
-.accordion ul,
-.description,
-.accordion {
+.accordion ul {
   list-style: none;
-  font-size: 12px;
-  background: #f7f7f7;
   width: 100%;
+  padding: 0;
 }
 
 .accordion li,
