@@ -1,6 +1,6 @@
 import React from 'react';
 import './LodgingPresentation.css';
-import { Star } from '../../components/Star.jsx';
+import { Stars } from '../../components/Stars.jsx';
 
 export function LodgingPresentation(props) {
   const rating = props.lodging.rating;
@@ -23,7 +23,7 @@ export function LodgingPresentation(props) {
       </div>
 
       <div className="starsAndHost">
-        <Star rating={rating} />
+        <Stars rating={rating} />
         <div className="host">
           <p className="nameHost">
             <span>{nameHost[0]}</span>

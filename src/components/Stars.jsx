@@ -2,7 +2,7 @@ import React from 'react';
 import star from '../assets/starGrey.jpg';
 import starColor from '../assets/starColor.jpg';
 
-export function Star({ rating }) {
+export function Stars({ rating }) {
   const ratingNumber = parseInt(rating);
   const starsNumber = [1, 2, 3, 4, 5];
   const starGrey = <img src={star} alt="Etoile grise" />;
