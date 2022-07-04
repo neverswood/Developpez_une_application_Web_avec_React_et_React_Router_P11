@@ -4,26 +4,25 @@
 
 .imgBanner {
   background-image: url('../../assets/bannerAbout.png');
+  background-size: cover;
+
   background-repeat: no-repeat;
 
   height: 223px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
-
 @media screen and (min-width: 376px) {
   .imgBanner {
+    border-radius: 25px;
     background-image: url('../../assets/bannerAboutLarge.png');
+    background-size: cover;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .about {
     margin: 0 100px;
-  }
-
-  .imgBanner {
-    border-radius: 25px;
   }
 
   section {
