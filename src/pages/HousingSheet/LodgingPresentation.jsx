@@ -1,14 +1,11 @@
 import React from 'react';
-import star from '../../assets/starGrey.jpg';
 import './LodgingPresentation.css';
-import starColor from '../../assets/starColor.jpg';
+import { Star } from '../../components/Star.jsx';
 
 export function LodgingPresentation(props) {
   const rating = props.lodging.rating;
-  const ratingNumber = parseInt(rating);
-  const array = [1, 2, 3, 4, 5];
-  const starGrey = <img src={star} alt="Etoile grise" />;
-  const starRed = <img src={starColor} alt="Etoile rouge" />;
+  console.log('pm', props, rating);
+
   const nameHost = props.lodging.host.name.split(' ');
 
   return (
@@ -28,11 +25,7 @@ export function LodgingPresentation(props) {
       </div>
 
       <div className="starsAndHost">
-        <div className="stars">
-          {array.map((index) => {
-            return index < ratingNumber ? starRed : starGrey;
-          })}
-        </div>
+        <Star rating={rating} />
         <div className="host">
           <p className="nameHost">
             <span>{nameHost[0]}</span>
