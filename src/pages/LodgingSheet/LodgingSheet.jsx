@@ -3,15 +3,15 @@ import { useParams } from 'react-router-dom';
 import { Gallery } from '../../components/Gallery.jsx';
 import { LodgingPresentation } from './LodgingPresentation';
 import { Collapse } from '../../components/Collapse';
-import './HousingSheet.css';
+import './LodgingSheet.css';
 import data from '../../data/data.json';
 
-export function HousingSheet() {
+export function LodgingSheet() {
   const params = useParams();
   const paramsId = params.id;
   const lodging = data.find((lodgingId) => lodgingId.id === paramsId);
   return (
-    <main className="housingSheet">
+    <main className="lodging-sheet">
       <Gallery pictures={lodging.pictures} />
       <LodgingPresentation lodging={lodging} />
       <Collapse

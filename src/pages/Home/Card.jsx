@@ -7,7 +7,7 @@ export function Card() {
   const lodgings = data.map((lodging) => {
     return (
       <div className="kasa-card" key={lodging.id}>
-        <Link to={`/housing-sheet/${lodging.id}`}>
+        <Link to={`/lodging-sheet/${lodging.id}`}>
           <img
             src={lodging.cover}
             alt={lodging.title}

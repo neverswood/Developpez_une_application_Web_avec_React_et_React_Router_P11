@@ -6,7 +6,7 @@ import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { About } from './pages/About/About.jsx';
 import { Home } from './pages/Home/Home.jsx';
-import { HousingSheet } from './pages/HousingSheet/HousingSheet.jsx';
+import { LodgingSheet } from './pages/LodgingSheet/LodgingSheet.jsx';
 import './styles/Index.css';
 
 const container = document.getElementById('root');
@@ -19,7 +19,7 @@ root.render(
         <Route path="/">
           <Route path="home" index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="housing-sheet/:id" element={<HousingSheet />} />
+          <Route path="lodging-sheet/:id" element={<LodgingSheet />} />
         </Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
