@@ -15,7 +15,7 @@ export function Header() {
       <img src={logo} alt="logo" className="kasa-logo" />
       <nav className="kasa-nav">
         <NavLink
-          to="/home"
+          to="/"
           className="kasa-link-Acceuil"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -23,7 +23,7 @@ export function Header() {
         </NavLink>
         <NavLink
           to="/about"
-          className="kasa-link-Apropos"
+          className="kasa-link-about"
           style={({ isActive }) => (isActive ? activeClassName : undefined)}
         >
           A Propos

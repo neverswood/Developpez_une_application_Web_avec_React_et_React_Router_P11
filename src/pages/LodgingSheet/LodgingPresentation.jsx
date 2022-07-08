@@ -8,7 +8,7 @@ export function LodgingPresentation(props) {
 
   return (
     <div className="presentation">
-      <div className="lodgingPresentation">
+      <div className="lodging-presentation">
         <h1>{props.lodging.title}</h1>
         <p className="location">{props.lodging.location}</p>
         <ul>
@@ -22,12 +22,12 @@ export function LodgingPresentation(props) {
         </ul>
       </div>
 
-      <div className="starsAndHost">
+      <div className="stars-and-host">
         <Stars rating={rating} />
         <div className="host">
-          <p className="nameHost">
+          <p className="host-name">
             <span>{nameHost[0]}</span>
-            <span className="lastName">{nameHost[1]}</span>
+            <span className="host-last-name">{nameHost[1]}</span>
           </p>
           <img src={props.lodging.host.picture} alt="Hôte" />
         </div>

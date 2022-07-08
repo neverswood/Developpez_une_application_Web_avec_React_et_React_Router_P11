@@ -4,7 +4,7 @@ import { Card } from './Card.jsx';
 
 export function LodgingList() {
   return (
-    <section className="kasa-lodgingList">
+    <section className="kasa-lodging-list">
       <Card />
     </section>
   );

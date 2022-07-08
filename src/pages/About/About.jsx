@@ -6,7 +6,7 @@ import '../../styles/Collapse.css';
 export function About() {
   return (
     <main className="about">
-      <div className="imgBanner"></div>
+      <div className="img-banner"></div>
       <section>
         <Collapse
           title="Fiabilité"

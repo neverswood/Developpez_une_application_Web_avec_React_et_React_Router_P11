@@ -1,4 +1,4 @@
-.kasa-lodgingList {
+.kasa-lodging-list {
   margin-top: 43px;
   border-radius: 25px;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .kasa-lodgingList {
+  .kasa-lodging-list {
     background-color: #f6f6f6;
 
     padding: 56px 0;
