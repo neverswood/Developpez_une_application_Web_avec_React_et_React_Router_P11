@@ -1,4 +1,7 @@
 .kasa-lodging-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 43px;
   border-radius: 25px;
   padding: 0;
