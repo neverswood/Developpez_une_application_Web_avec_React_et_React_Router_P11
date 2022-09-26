@@ -17,11 +17,11 @@ root.render(
       <Header />
       <Routes>
         <Route path="/">
-          <Route path="/" index element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="lodging-sheet/:id" element={<LodgingSheet />} />
+          <Route path="*" element={<Error />} />
         </Route>
-        <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />
     </Router>
