@@ -8,7 +8,7 @@ export function Error() {
     <main className="error-page">
       <h1>404</h1>
       <p>Oups! La page que vous demandez n'existe pas.</p>
-      <Link to="/home">Retourner sur la page d'acceuil</Link>
+      <Link to="/">Retourner sur la page d'acceuil</Link>
     </main>
   );
 }
