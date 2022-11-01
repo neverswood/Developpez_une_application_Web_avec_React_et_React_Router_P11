@@ -2,11 +2,15 @@ import React from 'react';
 import { Collapse } from '../../components/Collapse';
 import './About.css';
 import '../../styles/Collapse.css';
+import { Banner } from '../../components/Banner';
+import bannerAbout from '../../assets/bannerAbout.png';
+import '../Home/Home.css';
 
 export function About() {
   return (
     <main className="about">
-      <div className="img-banner"></div>
+      <Banner path={bannerAbout} classImg="kasa-banner__img" nameImg="banner" />
+
       <section>
         <Collapse
           title="Fiabilité"

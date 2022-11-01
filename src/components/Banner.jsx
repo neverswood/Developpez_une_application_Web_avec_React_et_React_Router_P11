@@ -1,11 +1,9 @@
 import React from 'react';
-import banner from '../../assets/banner.png';
-import './Banner.css';
 
-export function Banner() {
+export function Banner({ path, classImg, nameImg }) {
   return (
     <section className="kasa-banner">
-      <img src={banner} alt="banner" className="kasa-banner__img" />
+      <img src={path} alt={nameImg} className={classImg} />
       <h1 className="kasa-banner__slogan">Chez vous, partout et ailleurs</h1>
     </section>
   );
